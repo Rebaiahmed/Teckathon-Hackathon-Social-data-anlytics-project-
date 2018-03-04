@@ -1,0 +1,39 @@
+{
+  "name": "stack_overflow",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "chart.js": "^1.1.1",
+    "cors": "^2.8.4",
+    "csvtojson": "^1.1.9",
+    "d3": "^4.12.2",
+    "express": "^4.16.2",
+    "load-json-file": "^4.0.0",
+    "morgan": "^1.9.0",
+    "papaparse": "^4.3.6",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "react-vis": "^1.8.2",
+    "request": "^2.83.0",
+    "topojson": "^3.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
+  "homepage": "https://rebaiahmed.github.io/stack_overflow"
+}

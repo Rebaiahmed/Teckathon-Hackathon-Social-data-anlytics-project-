@@ -1,0 +1,84 @@
+
+
+
+df.select([c for c in df.columns if c in [ "status_published","num_reactions"]]).sort(desc("num_reactions").toPandas().to_cs  ('time_reactions.csv')
+
+
+
+#print(df.select('status_message').toPandas().to_csv('posts.txt'))
+
+
+
+
+
+#df.select([c for c in df.columns if c in ["_id ","link_name" , "num_loves","num_wows","num_hahas","num_angrys","num_special","status_message" , "status_type"]]).sort(desc("num_loves")).toPandas().to_csv('num_loves.csv')
+
+
+
+'''df.select([c for c in df.columns if c in ["_id ","link_name" , "num_likes","status_message" , "status_type"]]).sort(desc("num_likes")).toPandas().to_csv('num_likes.csv')
+
+
+
+
+
+print("************************************************************************************************")
+
+
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_loves","status_message" , "status_type"]]).sort(desc("num_loves")).toPandas().to_csv('num_loves.csv')
+
+
+print("************************************************************************************************")
+
+
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_comments","status_message" , "status_type"]]).sort(desc("num_comments")).toPandas().to_csv('num_comments.csv')
+
+
+
+print("************************************************************************************************")
+
+
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_shares","status_message" , "status_type"]]).sort(desc("num_shares")).toPandas().to_csv('num_shares.csv')
+
+
+
+
+
+print("************************************************************************************************")
+
+
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_sads","status_message" , "status_type"]]).sort(desc("num_sads")).toPandas().to_csv('num_sads.csv')
+
+
+print("************************************************************************************************")
+
+
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_special","status_message" , "status_type"]]).sort(desc("num_angrys")).toPandas().to_csv('num_special.csv')'''
+
+
+
+
+
+
+
+'''df.select([c for c in df.columns if c in ["_id ","link_name" , "num_angrys","status_message" , "status_type"]]).sort(desc("num_angrys")).toPandas().to_csv('num_angrys.csv',sep=',',mode='a')
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_sads","status_message" , "status_type"]]).sort(desc("num_sads")).toPandas().to_csv('num_sads.csv',sep=',',mode='a')
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_loves","status_message" , "status_type"]]).sort(desc("num_loves")).toPandas().to_csv('num_loves.csv',sep=',',mode='a', header=False)'''
+
+
+'''df.select([c for c in df.columns if c in ["_id ","link_name" , "num_wows","status_message" , "status_type"]]).sort(desc("num_wows")).toPandas().to_csv('num_wawas.csv')
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_hahas","status_message" , "status_type"]]).sort(desc("num_hahas")).toPandas().to_csv('num_hahas.csv')
+
+
+df.select([c for c in df.columns if c in ["_id ","link_name" , "num_special","status_message" , "status_type"]]).sort(desc("num_special")).toPandas().to_csv('num_special.csv')'''
