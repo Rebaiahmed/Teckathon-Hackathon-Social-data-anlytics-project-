@@ -9,7 +9,7 @@ except ImportError:
 
 app_id = "2011163892538992"
 app_secret = "f2e42a1f4d79652cb40e41a37812d0a4"  # DO NOT SHARE WITH ANYONE!
-page_id = "scoopinformatiq"
+page_id = "ClubJ2I"
 
 
 #Mytek.tn Tunisianet.com.tn scoopinformatiq

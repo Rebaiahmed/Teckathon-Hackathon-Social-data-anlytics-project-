@@ -38,13 +38,13 @@ if __name__ == "__main__":
 
     conf = SparkConf().setAppName("Words count").setMaster("local")
     sc = SparkContext(conf=conf)
-    '''text_file = sc.textFile("./posts.txt")
+    text_file = sc.textFile("./posts.txt")
     stopwords = sc.textFile("./stopwords_frensh.txt").collect()
     llist = text_file.collect()
     for lin in llist:
         print(type(extract_tokens(lin)))
         file = open('./test.txt','a')
-        file.write(str(extract_tokens(lin)))'''
+        file.write(str(extract_tokens(lin)))
 
 
 

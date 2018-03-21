@@ -10,7 +10,7 @@ except ImportError:
 
 app_id = "2011163892538992"
 app_secret = "f2e42a1f4d79652cb40e41a37812d0a4"  # DO NOT SHARE WITH ANYONE!
-file_id = ""
+file_id = "Mytek.tn"
 
 
 
@@ -97,7 +97,7 @@ def processFacebookComment(comment, status_id, parent_id=''):
         is '' else unicode_decode(comment['message'])
        
     #comment_author = unicode_decode(comment['from']['name'])
-    comment_author ='Me'
+    comment_author =unicode_decode('Me')
      #if num_reactions = 0  'reactions' not in comment else \
         #comment['reactions']['summary']['total_count']'''
 
